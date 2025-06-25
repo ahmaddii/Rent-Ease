@@ -1,0 +1,43 @@
+name: rentease
+description: A real estate app for finding and listing properties.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  image_picker: ^1.0.4
+  supabase_flutter: ^2.0.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/apartment1.jpg
+    - assets/apartment2.jpg
+    - assets/apartment3.jpg
+    - assets/apartment4.jpg
+    - assets/home2.jpg
+    - assets/home3.jpg
+    - assets/home4.jpg
+    - assets/home5.jpg
+    - assets/home6.jpg
+    - assets/profile.png 
+    - assets/logo.png
